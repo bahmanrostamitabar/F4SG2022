@@ -154,7 +154,7 @@ session_1 = list(
   title = "Session #1: Forecasting for vaccines", 
   chair = "Chair: Laila Akhlaghi | JSI",
   time = "10:50 - 12:30 (UTC)",
-  date = "Thu, June 24",
+  date = "Sunday July 10, 2022",
   talks = list(
     "10:50 (UTC)" = laila1, 
     "11:15 (UTC)" = wendy, 
@@ -212,7 +212,7 @@ Maarten = list(
 )
 
 keynote_3 = list(
-  title = "Keynote #3: Demand Forecasting for New Contraceptive Technologies", 
+  title = "Keynote #3: TBD", 
   chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
   time = "14:00 - 14:30 (UTC)",
   date = "Sunday, July 10",
@@ -222,7 +222,6 @@ keynote_3 = list(
 )
 
 html_session(keynote_3, id="key3")
-
 
 
 #-------------------------------------------------------#
@@ -262,16 +261,16 @@ session_2 = list(
   title = "Session #2: Forecasting for International migration and cross-border mobility", 
   chair = "Chair: Ingmar G. Weber | Qatar Computing Research Institute",
   time = "14:35 - 15:35 (UTC)",
-  date = "Thu, June 24",
+  date = "Sunday July 10, 2022",
   talks = list(
     "14:35 (UTC)" = david_leblang, 
     "15:00 (UTC)" = eduardo, 
     "15:25 (UTC)" = andre,
+    "15:50 (UTC)" = lisa
   )
 )
 
 html_session(session_2, id="session2")
-
 
 
 #-------------------------------------------------------#
@@ -280,7 +279,7 @@ html_session(session_2, id="session2")
 break_1 = list(
   title = "Break", 
   # chair = "",
-  time = "15:25 - 15:45 (UTC)",
+  time = "16:15 - 16:35 (UTC)",
   date = "Sunday, July 10"
   #talks = list()
 )
@@ -290,154 +289,26 @@ html_session(break_1)
 print(htmltools::br())
 
 
-
 #-------------------------------------------------------#
-# Session 3
+# Keynote 4
 #-------------------------------------------------------#
-
-Chen = list(
-  author = "Trista Chen, Jonathan Hans Soeseno and Davide Burba | Inventec Corporation",
-  title = "Forecasting with Artificial Intelligence: From Manufacturing Logistics Management to Global Health Forecasting",
-  abstract = "Being a multi-national corporation with manufacturing sites around 
-  the world, we will share in this talk our strategy in applying tens of years 
-  of supply chain management (SCM) experience to solve global health challenges. 
-  Specifically, we will outline the similarity and dissimilarity between the two 
-  settings: manufacturing and global health. Next, we will share a few key factors 
-  that may contribute to our success in the USAID Intelligent Forecasting 
-  competition, e.g., data engineering, AI model selections, etc. 
-  Reimagining global health through the lens of AI, we hope to broaden 
-  the reach and impact of the AI technology."  
+robhyndman = list(
+  author = "Rob Hyndman, Monash University",
+  title = "How forecasters can create social good",
+  abstract = "Social good is created whenever we make new forecasting methods and resources freely available and usable. That could take the form of open source software and data, open access papers and textbooks, reproducible source files, and so on. I will discuss progress in this area over the last 25 years, and reflect on my own experiences in publishing forecasting papers, books and software. I will discuss the benefits in working openly and publicly from an academic, commercial, and social good perspective."
 )
 
-Kells = list(
-  author = "Adam Kells, Andre Franca and Maksim Sipos | CausaLens",
-  title = "Using Causal AI to forecast contraceptive usage",
-  abstract = "In this talk we describe the challenges and solutions developed 
-  for forecasting contraceptive use as part of the USAID competition. 
-  We used a variety of ensembling techniques, as well as advanced signal testing 
-  and causal discovery methods."  
-)
-
-Craig = list(
-  author = "Craig Jolley, Aubra Anthony, Shachee Doshi, Amy Paul and Andrew Merluzzi | USAID",
-  title = "AI and advanced forecasting at USAID",
-  abstract = "As artificial intelligence tools become more accessible and widely-used, 
-  development organizations are increasingly turning 
-  to forecasting tools in an effort to gain efficiency, 
-  reduce risk, and respond more quickly in volatile 
-  environments. At the same time, AI-based forecasting 
-  carries risks of bias, overconfidence, 
-  or misapplication, along with the reputational and 
-  moral hazards of (imperfectly) predicting future events. 
-  At the U.S. Agency for International Development, 
-  we aim to strike a strategic balance between 
-  adoption of tools that can improve our work 
-  and caution about their limitations and potential 
-  misuse. A key part of our approach is to pay 
-  attention to the broader technology 
-  ecosystem -- looking beyond a specific AI application
-  to understand the societal, regulatory, 
-  and economic context into which it is deployed. 
-  This talk will walk through a few examples of 
-  forecasting-related projects at USAID and what 
-  we have learned from these experiences."  
-)
-
-session_3 = list(
-  title = "Session #3: USAID's Intelligent Forecasting: A Competition to Model Future Contraceptive Use", 
-  chair = "Chair: Glenn Milano | USAID",
-  time = "18:15 - 19:30 (UTC)",
-  date = "Thu, June 24",
+keynote_4 = list(
+  title = "Keynote #4: How forecasters can create social good", 
+  chair = "Chair: Aziz Ezzat | Rutgers University",
+  time = "16:40 - 17:10 (UTC)",
+  date = "Sunday July 10, 2022",
   talks = list(
-    "18:15 (UTC)" = Chen, 
-    "18:40 (UTC)" = Kells,
-    "19:05 (UTC)" = Craig
-  )
-)
-
-html_session(session_3, id="session3")
-
-
-# 
-# #-------------------------------------------------------#
-# # Panel 1
-# #-------------------------------------------------------#
-# 
-# panelists = list(
-#   author = htmltools::HTML("Nuno Nunes | International Organization for Migration (IOM) <br/> 
-#                 Rebeca Moreno Jimenez | UNHCR Innovation <br/>
-#                 Dani Poole | Neukom Institute for Computational Science, Dartmouth College <br/>
-#                 Nathaniel Raymond | Yale University
-#                 "),
-#   title = "Ethical Considerations in Forecasting",
-#   abstract = 'The collection, analysis, and use of "big" data in the humanitarian sector 
-#   is increasing at a rapid pace. Predictions resulting from these models are of 
-#   enormous use to governments, NGOs, and IGOs that work to deliver human and material 
-#   assistance to those in need. The use of big data, however, also comes with serious 
-#   ethical considerations including privacy concerns of those being studies/surveyed, 
-#   challenges associated with the representativeness of the sample under consideration, 
-#   and potential risks to vulnerable populations if forecasts are abused by state or nonstate actors.
-#   This roundtable brings together practitioners and academics to discuss the ethical 
-#   dimensions of forecasting across a range of substantive areas.'
-# )
-# 
-# 
-# panel_1 = list(
-#   title = "Panel #1: Ethical Considerations in Forecasting", 
-#   chair = "Moderator: David Leblang | University of Virginia",
-#   time = "16:00 - 17:30	 (UTC)",
-#   date = "Thu, June 24",
-#   talks = list(
-#     "16:00 (UTC)" = panelists
-#   )  
-# )
-# 
-# html_session(panel_1, id="panel1")
-
-#-------------------------------------------------------#
-# Break
-#-------------------------------------------------------#
-break_2 = list(
-  title = "Break", 
-  # chair = "",
-  time = "17:30 - 17:40 (UTC)",
-  date = "Thu, June 24"
-  #talks = list()
-)
-
-html_session(break_2)
-
-print(htmltools::br())
-
-#-------------------------------------------------------#
-# Keynote 3
-#-------------------------------------------------------#
-GMilano = list(
-  author = "Glenn Milano | United States Agency for International Development (USAID), Office of Population and Reproductive Health",
-  title = "USAID's Intelligent Forecasting: A Competition to Model Future Contraceptive Use",
-  abstract = "USAID's Intelligent Forecasting Competition to Model Future 
-  Contraceptive Use is our latest effort to improve forecasting accuracy of 
-  life-saving medical products in our Global Health Supply Chain. 
-  The purpose of the competition was to learn from empirical evidence how to 
-  improve the forecasting accuracy and how such learning could be used to 
-  advance the practice of forecasting health products in a least developed 
-  country context. This presentation covers USAID’s health supply chain 
-  forecasting methods and mechanisms including this competition’s organization 
-  and running, presentation of results, the top-performing methods and other 
-  major findings."
-)
-
-keynote_3 = list(
-  title = "Keynote #3: USAID Intelligent Forecasting", 
-  chair = "Chair: Bahman Rostami-Tabar | Cardiff University",
-  time = "17:40 - 18:15 (UTC)",
-  date = "Thu, June 24",
-  talks = list(
-    "17:40 (UTC)" = GMilano
+    "16:40 (UTC)" = robhyndman
   )  
 )
 
-html_session(keynote_3, id="key3")
+html_session(keynote_4, id="key4")
 
 
 #-------------------------------------------------------#
@@ -445,10 +316,10 @@ html_session(keynote_3, id="key3")
 #-------------------------------------------------------#
 
 close_1 = list(
-  title = "Closing Day 1", 
+  title = "Closing", 
   chair = "Chair: Bahman Rostami-Tabar | Cardiff University",
-  time = "19:30 - 19:35 (UTC)",
-  date = "Thu, June 24"
+  time = "17:10 - 17:25 (UTC)",
+  date = "Sunday July 10, 2022"
   #talks = list( )
 )
 
