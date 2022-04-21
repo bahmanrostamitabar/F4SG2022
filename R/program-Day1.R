@@ -34,20 +34,20 @@ html_session(welcome_1, id="welcome_1")
 #-------------------------------------------------------#
 # Keynote 1
 #-------------------------------------------------------#
-yael = list(
-  author = "Yael Grushka-Cockayne | University of Virginia",
-  title = "TBD",
-  abstract = htmltools::HTML('TBD.')
+robhyndman = list(
+  author = "Rob Hyndman, Monash University",
+  title = "How forecasters can create social good",
+  abstract = "Social good is created whenever we make new forecasting methods and resources freely available and usable. That could take the form of open source software and data, open access papers and textbooks, reproducible source files, and so on. I will discuss progress in this area over the last 25 years, and reflect on my own experiences in publishing forecasting papers, books and software. I will discuss the benefits in working openly and publicly from an academic, commercial, and social good perspective."
 )
 
 keynote_1 = list(
-  title = "Keynote #1: TBD", 
-  chair = "Chair: Michael Porter | University of Virginia",
+  title = "Keynote #1: How forecasters can create social good", 
+  chair = "Chair: Aziz Ezzat | Rutgers University",
   time = "10:15 - 10:45 (UTC)",
-  date = "Sunday, July 10",
+  date = "Sunday July 10, 2022",
   talks = list(
-    "10:15 (UTC)" = yael
-  )
+    "10:15 (UTC)" = robhyndman
+  )  
 )
 
 html_session(keynote_1, id="key1")
@@ -292,24 +292,24 @@ print(htmltools::br())
 #-------------------------------------------------------#
 # Keynote 4
 #-------------------------------------------------------#
-robhyndman = list(
-  author = "Rob Hyndman, Monash University",
-  title = "How forecasters can create social good",
-  abstract = "Social good is created whenever we make new forecasting methods and resources freely available and usable. That could take the form of open source software and data, open access papers and textbooks, reproducible source files, and so on. I will discuss progress in this area over the last 25 years, and reflect on my own experiences in publishing forecasting papers, books and software. I will discuss the benefits in working openly and publicly from an academic, commercial, and social good perspective."
+
+yael = list(
+  author = "Yael Grushka-Cockayne | University of Virginia",
+  title = "TBD",
+  abstract = htmltools::HTML('TBD.')
 )
 
 keynote_4 = list(
-  title = "Keynote #4: How forecasters can create social good", 
-  chair = "Chair: Aziz Ezzat | Rutgers University",
+  title = "Keynote #4: TBD", 
+  chair = "Chair: Michael Porter | University of Virginia",
   time = "16:40 - 17:10 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
-    "16:40 (UTC)" = robhyndman
-  )  
+    "16:40 (UTC)" = yael
+  )
 )
 
 html_session(keynote_4, id="key4")
-
 
 #-------------------------------------------------------#
 # Closing 
