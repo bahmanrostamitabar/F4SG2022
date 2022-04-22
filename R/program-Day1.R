@@ -2,37 +2,46 @@
 
 library(htmltools)
 
+#-------------------------------------------------------#
+# Welcome and Break
+#-------------------------------------------------------#
+break_0 = list(
+  title = "Regsiteration , Coffee and Refreshment", 
+  # chair = "",
+  time = "08:00 - 08:30 (UTC)",
+  date = "Sunday, July 10"
+  #talks = list()
+)
+
+html_session(break_0)
+
+print(htmltools::br())
+
 
 #-------------------------------------------------------#
 # Welcome Day 1
 #-------------------------------------------------------#
-arrival = list(
-  author = "",
-  title = "Arrival",
-  abstract = ""
-)
 
 Bahman = list(
   author = "Bahman Rostami-Tabar, Cardiff University",
-  title = "Information from the Organisers",
+  title = "F4SG activities & Information from the Organisers",
   abstract = ""
 )
 
 welcome_1 = list(
   title = "Welcome", 
   chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
-  time = "10:00 - 10:15 (UTC)",
+  time = "08:30 - 08:45 (UTC)",
   date = "Sunday, July 10",
   talks = list(
-    "10:00 (UTC)" = arrival, 
-    "10:15 (UTC)" = Bahman
+    "08:30 (UTC)" = Bahman
   )
 )
 
 html_session(welcome_1, id="welcome_1")
 
 #-------------------------------------------------------#
-# Keynote 1
+# featured 1
 #-------------------------------------------------------#
 robhyndman = list(
   author = "Rob Hyndman, Monash University",
@@ -40,17 +49,17 @@ robhyndman = list(
   abstract = "Social good is created whenever we make new forecasting methods and resources freely available and usable. That could take the form of open source software and data, open access papers and textbooks, reproducible source files, and so on. I will discuss progress in this area over the last 25 years, and reflect on my own experiences in publishing forecasting papers, books and software. I will discuss the benefits in working openly and publicly from an academic, commercial, and social good perspective."
 )
 
-keynote_1 = list(
-  title = "Keynote #1: How forecasters can create social good", 
-  chair = "Chair: Aziz Ezzat | Rutgers University",
-  time = "10:15 - 10:45 (UTC)",
+featured_1 = list(
+  title = "Featured talk #1: How forecasters can create social good", 
+  chair = "Chair: Michael Porter | University of Virginia",
+  time = "08:45 - 09:15 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
-    "10:15 (UTC)" = robhyndman
+    "08:45 (UTC)" = robhyndman
   )  
 )
 
-html_session(keynote_1, id="key1")
+html_session(featured_1, id="key1")
 
 #-------------------------------------------------------#
 # Session 1 
@@ -153,38 +162,17 @@ bahman = list(
 session_1 = list(
   title = "Session #1: Forecasting for vaccines", 
   chair = "Chair: Laila Akhlaghi | JSI",
-  time = "10:50 - 12:30 (UTC)",
+  time = "09:20 - 10:55 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
-    "10:50 (UTC)" = laila1, 
-    "11:15 (UTC)" = wendy, 
-    "11:40 (UTC)" = laila2,
-    "12:05 (UTC)" = laila2
+    "09:20 (UTC)" = laila1, 
+    "09:45 (UTC)" = wendy, 
+    "10:10 (UTC)" = laila2,
+    "10:35 (UTC)" = bahman
   )
 )
 
 html_session(session_1, id="session1")
-
-#-------------------------------------------------------#
-# Keynote 2
-#-------------------------------------------------------#
-Elizabeth = list(
-  author = "Elizabeth Lacroix",
-  title = "Demand Forecasting for New Contraceptive Technologies: Identifying Common Approaches and Recommended Applications",
-  abstract = 'TBD'
-)
-
-keynote_2 = list(
-  title = "Keynote #2: Demand Forecasting for New Contraceptive Technologies", 
-  chair = "Chair: Buket Cilali, University of Oklahoma",
-  time = "12:30 - 13:00 (UTC)",
-  date = "Sunday, July 10",
-  talks = list(
-    "12:30 (UTC)" = Elizabeth
-  )  
-)
-
-html_session(keynote_2, id="key2")
 
 
 #-------------------------------------------------------#
@@ -193,7 +181,7 @@ html_session(keynote_2, id="key2")
 lunch_1 = list(
   title = "Lunch", 
   # chair = "",
-  time = "13:00 - 14:00 (UTC)",
+  time = "11:00 - 12:00 (UTC)",
   date = "Sunday, July 10"
   #talks = list()
 )
@@ -203,7 +191,28 @@ html_session(lunch_1, id="lunch1")
 print(htmltools::br())
 
 #-------------------------------------------------------#
-# Keynote 3
+# featured 2
+#-------------------------------------------------------#
+Elizabeth = list(
+  author = "Elizabeth Lacroix",
+  title = "Demand forecasting for new Contraceptive technologies: Identifying common approaches and recommended applications",
+  abstract = 'TBD'
+)
+
+featured_2 = list(
+  title = "Featured talk #2: Demand forecasting for new contraceptive technologies", 
+  chair = "Chair: Buket Cilali, University of Oklahoma",
+  time = "12:00 - 12:30 (UTC)",
+  date = "Sunday, July 10",
+  talks = list(
+    "12:00 (UTC)" = Elizabeth
+  )  
+)
+
+html_session(featured_2, id="key2")
+
+#-------------------------------------------------------#
+# featured 3
 #-------------------------------------------------------#
 Maarten = list(
   author = "M. (Maarten) van Smeden",
@@ -211,17 +220,17 @@ Maarten = list(
   abstract = 'TBD'
 )
 
-keynote_3 = list(
-  title = "Keynote #3: TBD", 
+featured_3 = list(
+  title = "Featured talk #3: TBD", 
   chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
-  time = "14:00 - 14:30 (UTC)",
+  time = "12:35 - 13:05 (UTC)",
   date = "Sunday, July 10",
   talks = list(
-    "14:00 (UTC)" = Maarten
+    "12:35 (UTC)" = Maarten
   )  
 )
 
-html_session(keynote_3, id="key3")
+html_session(featured_3, id="key3")
 
 
 #-------------------------------------------------------#
@@ -250,23 +259,15 @@ andre = list(
 "
 )
 
-lisa = list(
-  author = "Lisa Singh",
-  title = "Forecasting Migration from Ukraine Using Organic Data: Strengths and Limitations",
-  abstract = "The invasion of Ukraine has created the largest refugee crisis this century. Even though there is on the ground information available about movement, we consider what can and cannot be determined using organic data sources. We collected social media data from Ukrainian language Twitter, geotagged events reported by the open source intelligence community and newspaper articles about the war. These data were aggregated into a set of variables and indicators that attempt to approximate what is happening on the ground.  We develop a Bayesian hierarchical model to estimate which of our organic variables are correlated with actual migration flows as reported by the UNHCR and, just as crucially, what the lag period is between on the ground events and arrivals of migrants. We discuss both the strengths and weaknesses of this approach for just-in-time movement information.
-"
-)
-
 session_2 = list(
   title = "Session #2: Forecasting for International migration and cross-border mobility", 
   chair = "Chair: Ingmar G. Weber | Qatar Computing Research Institute",
-  time = "14:35 - 15:35 (UTC)",
+  time = "13:10 - 14:05 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
-    "14:35 (UTC)" = david_leblang, 
-    "15:00 (UTC)" = eduardo, 
-    "15:25 (UTC)" = andre,
-    "15:50 (UTC)" = lisa
+    "13:10 (UTC)" = david_leblang, 
+    "13:35 (UTC)" = eduardo, 
+    "13:40 (UTC)" = andre
   )
 )
 
@@ -279,7 +280,7 @@ html_session(session_2, id="session2")
 break_1 = list(
   title = "Break", 
   # chair = "",
-  time = "16:15 - 16:35 (UTC)",
+  time = "14:05 - 14:30 (UTC)",
   date = "Sunday, July 10"
   #talks = list()
 )
@@ -288,9 +289,50 @@ html_session(break_1)
 
 print(htmltools::br())
 
+#-------------------------------------------------------#
+# Session 3
+#-------------------------------------------------------#
+
+
+
+jana = list(
+  author = "Jana Abikova",
+  title = "Neglected migration crisis - climate change and people on the move",
+  abstract = "Forced migration is driven by human-made or natural disasters, conflicts, and human rights
+violations. Over the recent years, the strong growth in displacement was driven primarily by
+the conflicts such as in Yemen, Syria, South Sudan, Sudan, and the Central African Republic.
+As the world focuses on refugees’ flow from Ukraine these days, environmental migration hid
+under the surface once again. Based on the Groundswell report, over 216 million people could
+be forced to move by 2050 due to climate change. The impact of climate change increases the
+risk of conflicts and security threats, poverty, or social disintegration. This could potentially
+spin the forced migration even more. How is the prediction of environmental migration
+standing? Why is forecasting migration flows challenging? Undoubtedly, there is a strong
+interest in being prepared for the migration flows and researching this field. How can we
+prevent narrowing our focus in one direction, one region, or one cause?"
+)
+
+lisa = list(
+  author = "Lisa Singh",
+  title = "Forecasting Migration from Ukraine Using Organic Data: Strengths and Limitations",
+  abstract = "The invasion of Ukraine has created the largest refugee crisis this century. Even though there is on the ground information available about movement, we consider what can and cannot be determined using organic data sources. We collected social media data from Ukrainian language Twitter, geotagged events reported by the open source intelligence community and newspaper articles about the war. These data were aggregated into a set of variables and indicators that attempt to approximate what is happening on the ground.  We develop a Bayesian hierarchical model to estimate which of our organic variables are correlated with actual migration flows as reported by the UNHCR and, just as crucially, what the lag period is between on the ground events and arrivals of migrants. We discuss both the strengths and weaknesses of this approach for just-in-time movement information.
+"
+)
+
+session_3 = list(
+  title = "Session #3: Forecasting for International migration and cross-border mobility", 
+  chair = "Chair: Ingmar G. Weber | Qatar Computing Research Institute",
+  time = "14:35 - 15:00 (UTC)",
+  date = "Sunday July 10, 2022",
+  talks = list(
+    "14:35 (UTC)" = jana, 
+    "15:00 (UTC)" = lisa
+  )
+)
+
+html_session(session_3, id="session3")
 
 #-------------------------------------------------------#
-# Keynote 4
+# featured 4
 #-------------------------------------------------------#
 
 yael = list(
@@ -299,26 +341,26 @@ yael = list(
   abstract = htmltools::HTML('TBD.')
 )
 
-keynote_4 = list(
-  title = "Keynote #4: TBD", 
-  chair = "Chair: Michael Porter | University of Virginia",
-  time = "16:40 - 17:10 (UTC)",
+featured_4 = list(
+  title = "featured talk #4: TBD", 
+  chair = "Chair: Aziz Ezzat | Rutgers University",
+  time = "15:05 - 15:35 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
-    "16:40 (UTC)" = yael
+    "15:05 (UTC)" = yael
   )
 )
 
-html_session(keynote_4, id="key4")
+html_session(featured_4, id="key4")
 
 #-------------------------------------------------------#
 # Closing 
 #-------------------------------------------------------#
 
 close_1 = list(
-  title = "Closing", 
+  title = "Closing & call for support F4SG activities", 
   chair = "Chair: Bahman Rostami-Tabar | Cardiff University",
-  time = "17:10 - 17:25 (UTC)",
+  time = "15:40 - 16:00 (UTC)",
   date = "Sunday July 10, 2022"
   #talks = list( )
 )
