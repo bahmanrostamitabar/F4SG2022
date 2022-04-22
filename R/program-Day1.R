@@ -215,7 +215,7 @@ html_session(featured_2, id="key2")
 # featured 3
 #-------------------------------------------------------#
 Maarten = list(
-  author = "M. (Maarten) van Smeden",
+  author = "Maarten van Smeden",
   title = "TBD",
   abstract = 'TBD'
 )
