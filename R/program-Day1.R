@@ -342,7 +342,7 @@ yael = list(
 )
 
 featured_4 = list(
-  title = "featured talk #4: TBD", 
+  title = "Featured talk #4: TBD", 
   chair = "Chair: Aziz Ezzat | Rutgers University",
   time = "15:05 - 15:35 (UTC)",
   date = "Sunday July 10, 2022",
