@@ -221,7 +221,7 @@ Maarten = list(
 )
 
 featured_3 = list(
-  title = "Featured talk #3: TBD", 
+  title = "Featured talk #3: Prediction modeling in clinical healthcare (TBC)", 
   chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
   time = "12:35 - 13:05 (UTC)",
   date = "Sunday, July 10",
