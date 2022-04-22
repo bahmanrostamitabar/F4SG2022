@@ -358,7 +358,7 @@ html_session(featured_4, id="key4")
 #-------------------------------------------------------#
 
 close_1 = list(
-  title = "Closing & call for support F4SG activities", 
+  title = "Closing & call for support of F4SG activities", 
   chair = "Chair: Bahman Rostami-Tabar | Cardiff University",
   time = "15:40 - 16:00 (UTC)",
   date = "Sunday July 10, 2022"
