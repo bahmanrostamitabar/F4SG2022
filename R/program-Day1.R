@@ -216,12 +216,12 @@ html_session(featured_2, id="key2")
 #-------------------------------------------------------#
 Maarten = list(
   author = "Maarten van Smeden",
-  title = "TBD",
-  abstract = 'TBD'
+  title = "Prognosis-based medicine: merits and pitfalls of forecasting patient health",
+  abstract = 'Accurate forecasting of the health of individual patients (prognostication) is widely recognized as one of the key challenges in medicine. Accurate and individualized forecasting is becoming even more essential with the increasing calls to move away from one-size-fits-all healthcare, to disease treatment and prevention strategies that are tailored to the individual -- often called “precision medicine”. In this talk, I will reflect on the (long) history of prognostication, provide some examples where adequate prognostication has worked and where it has not. Some key future challenges for forecasting of patient health will be discussed'
 )
 
 featured_3 = list(
-  title = "Featured talk #3: Prediction modeling in clinical healthcare (TBC)", 
+  title = "Featured talk #3: Prognosis-based medicine: merits and pitfalls of forecasting patient health", 
   chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
   time = "12:35 - 13:05 (UTC)",
   date = "Sunday, July 10",
