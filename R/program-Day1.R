@@ -332,7 +332,7 @@ session_3 = list(
   talks = list(
     "14:35 (UTC)" = jana, 
     "15:00 (UTC)" = lisa,
-    "15:25 (UTC)" = lisa
+    "15:25 (UTC)" = rebecca
   )
 )
 
