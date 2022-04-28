@@ -318,6 +318,12 @@ lisa = list(
 "
 )
 
+rebecca = list(
+  author = "Rebeca Moreno Jimenez",
+  title = "Predictive Analytics at UNHCR",
+  abstract = "Humanitarian agencies are leveraging big data analytics and emerging technologies, like artificial intelligence to anticipate humanitarian action. In the past years, UNHCR Innovation has been working with forecasting and predictive analytics in forced displacement context from rural areas to urban areas. In this session we will address some of the ethical and data protection considerations that need to be taken when forecasting forced displacement, with examples from Somalia and Brazil."
+)
+
 session_3 = list(
   title = "Session #3: Forecasting for International migration and cross-border mobility", 
   chair = "Chair: Ingmar G. Weber | Qatar Computing Research Institute",
@@ -325,7 +331,8 @@ session_3 = list(
   date = "Sunday July 10, 2022",
   talks = list(
     "14:35 (UTC)" = jana, 
-    "15:00 (UTC)" = lisa
+    "15:00 (UTC)" = lisa,
+    "15:25 (UTC)" = lisa
   )
 )
 
@@ -344,10 +351,10 @@ yael = list(
 featured_4 = list(
   title = "Featured talk #4: TBD", 
   chair = "Chair: Aziz Ezzat | Rutgers University",
-  time = "15:05 - 15:35 (UTC)",
+  time = "15:50 - 16:20 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
-    "15:05 (UTC)" = yael
+    "15:50 (UTC)" = yael
   )
 )
 
@@ -360,7 +367,7 @@ html_session(featured_4, id="key4")
 close_1 = list(
   title = "Closing & call for support of F4SG activities", 
   chair = "Chair: Bahman Rostami-Tabar | Cardiff University",
-  time = "15:40 - 16:00 (UTC)",
+  time = "16:25 - 16:40 (UTC)",
   date = "Sunday July 10, 2022"
   #talks = list( )
 )
