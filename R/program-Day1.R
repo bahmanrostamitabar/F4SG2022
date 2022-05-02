@@ -167,8 +167,8 @@ session_1 = list(
   talks = list(
     "09:20 (UTC)" = laila1, 
     "09:45 (UTC)" = wendy, 
-    "10:10 (UTC)" = laila2,
-    "10:35 (UTC)" = bahman
+    "10:10 (UTC)" = bahman,
+    "10:35 (UTC)" = laila2
   )
 )
 
@@ -195,8 +195,13 @@ print(htmltools::br())
 #-------------------------------------------------------#
 Elizabeth = list(
   author = "Elizabeth Lacroix",
-  title = "Demand forecasting for new Contraceptive technologies: Identifying common approaches and recommended applications",
-  abstract = 'TBD'
+  title = "Demand Forecasting Approaches for New Contraceptive Technologies: A Landscape Review and Recommendations for Alignment",
+  abstract = 'Diverse methodological approaches fulfill the broad spectrum of purposes of market size estimation and demand forecasting for new (and lesser used) contraceptive methods, from decisions on early research and development investments to the development of plans for initial procurement and product launch in country. Contraceptive products already at scale in a market can utilize historical procurement and consumption data, among other data sources, to inform forecasts. However, little published guidance is available on appropriate approaches to estimating contraceptive demand or future consumption in the absence of historical data.  
+
+The objectives of this landscape review were to describe the variety of approaches for modeling demand for new contraceptive methods, highlight opportunities for alignment around definitions and practices, and make recommendations to support more accurate forecasting and sound decision-making based on forecasts. We conducted key informant interviews with 28 experts representing the spectrum of interests in market size estimation and demand forecasting (e.g., Ministries of Health, donors, manufacturers, demand forecasting specialists). 
+
+This talk will present our key findings and recommendations for alignment. To support sound decision-making based on forecasts, it is essential to clarify and communicate the purpose of the forecast, outputs needed, methodological approach, and assumptions. I’ll discuss the importance of choosing a methodology that is fit for purpose, approaches for accounting for current method mix, best practices for choosing and using historical trend data for a proxy product, and the need to reality test results. These results reiterate the importance of clearly articulating assumptions, acknowledging uncertainty, and refreshing forecasts when new data becomes available.
+'
 )
 
 featured_2 = list(
