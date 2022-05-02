@@ -448,7 +448,7 @@ button:focus,
  *-----------------------------------------------*/
 .responsive {
   width: 80%;
-  max-width: 400px;
+  max-width: 200px;
   height: auto;
 }
 
@@ -462,19 +462,19 @@ button:focus,
     display: inline-block;
     }
 
-@media (max-width : 767px) {
+@media (max-width : 250px) {
     .team .thumbnail {
         margin-bottom : 30px;
         }
     }
 
 .team .thumbnail img {
-    width : 200px;
-    height : 250px;
+    width : 250px;
+    height: auto;
     background-size: cover;
     }
 
-.team .thumbnail .caption {
+.team .thumbnail .figcaption {
     width : 200px;
     background-size: cover;
     text-align: center;
@@ -486,6 +486,7 @@ button:focus,
     margin           : 0px 5px;
     text-transform   : uppercase;
     padding          : 0px 5px;
+    text-align: center;
     }
 
 
