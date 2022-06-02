@@ -349,12 +349,12 @@ html_session(session_3, id="session3")
 
 yael = list(
   author = "Yael Grushka-Cockayne | University of Virginia",
-  title = "TBD",
+  title = "Democratizing Forecasting Learning",
   abstract = htmltools::HTML('TBD.')
 )
 
 featured_4 = list(
-  title = "Featured talk #4: TBD", 
+  title = "Featured talk #4: Democratizing Forecasting Learning", 
   chair = "Chair: Aziz Ezzat | Rutgers University",
   time = "15:50 - 16:20 (UTC)",
   date = "Sunday July 10, 2022",
