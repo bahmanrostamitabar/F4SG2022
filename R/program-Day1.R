@@ -66,7 +66,7 @@ html_session(featured_1, id="key1")
 #-------------------------------------------------------#
 
 laila1 = list(
-  author = "Laila Akhlaghi, Wendy Prosser, and Dorthe Konradsen",
+  author = "Laila Akhlaghi and Wendy Prosser",
   title = " Adapting health program forecasting methodologies to our new reality with COVID-19 vaccines.",
   abstract = "Supply chain management of health programs (financing, technical assistance, support, etc.) 
   tend to be siloed and fall within the following health areas: 
@@ -98,7 +98,7 @@ laila1 = list(
 )
 
 wendy = list(
-  author = "Wendy Prosser, Laila Akhlaghi",
+  author = "Wendy Prosser and Laila Akhlaghi",
   title = 'Immunization Visibility and Analytics Network (VAN) efforts: Review of progress towards a global collaborative demand planning initiative',
   abstract = "JSI has been leading an effort with other partners to strengthen supply planning capacity by LMICs for COVID-19 vaccines. A standardized tool has been developed that captures complete shipment, inventory and consumption data from currently 15 countries. 
 This initiative, called the COVID-19 Vaccine Collaborative 
@@ -129,7 +129,7 @@ can be applied to the global level."
 )
 
 laila2 = list(
-  author = "Laila Akhlaghi and Alexis Heaton",
+  author = "Laila Akhlaghi",
   title = "Methodology and challenges with using historical order and shipment data for developing near term (18 months) forecasts for manufacturers and suppliers.",
   abstract = "Over the past decade, greater partnership 
   across manufacturers, procurers, donors, countries, 
