@@ -50,7 +50,7 @@ robhyndman = list(
 )
 
 featured_1 = list(
-  title = "Featured talk #1: How forecasters can create social good", 
+  title = "Featured talk #1: Creating social good for forecasters", 
   chair = "Chair: Michael Porter | University of Virginia",
   time = "08:45 - 09:15 (UTC)",
   date = "Sunday July 10, 2022",
