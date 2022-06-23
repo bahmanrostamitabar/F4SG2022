@@ -267,12 +267,12 @@ andre = list(
 session_2 = list(
   title = "Session #2: Forecasting for International migration and cross-border mobility", 
   chair = "Chair: Ingmar G. Weber | Qatar Computing Research Institute",
-  time = "13:10 - 14:05 (UTC)",
+  time = "13:10 - 14:25 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
     "13:10 (UTC)" = david_leblang, 
     "13:35 (UTC)" = eduardo, 
-    "13:40 (UTC)" = andre
+    "14:00 (UTC)" = andre
   )
 )
 
@@ -285,7 +285,7 @@ html_session(session_2, id="session2")
 break_1 = list(
   title = "Break", 
   # chair = "",
-  time = "14:05 - 14:30 (UTC)",
+  time = "14:30 - 14:50 (UTC)",
   date = "Sunday, July 10"
   #talks = list()
 )
@@ -332,12 +332,12 @@ rebecca = list(
 session_3 = list(
   title = "Session #3: Forecasting for International migration and cross-border mobility", 
   chair = "Chair: Ingmar G. Weber | Qatar Computing Research Institute",
-  time = "14:35 - 15:00 (UTC)",
+  time = "14:50 - 15:00 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
-    "14:35 (UTC)" = jana, 
-    "15:00 (UTC)" = lisa,
-    "15:25 (UTC)" = rebecca
+    "14:55 (UTC)" = jana, 
+    "15:25 (UTC)" = lisa,
+    "15:50 (UTC)" = rebecca
   )
 )
 
@@ -356,10 +356,10 @@ yael = list(
 featured_4 = list(
   title = "Featured talk #4: Democratizing Forecasting Learning", 
   chair = "Chair: Aziz Ezzat | Rutgers University",
-  time = "15:50 - 16:20 (UTC)",
+  time = "16:15 - 16:45 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
-    "15:50 (UTC)" = yael
+    "16:15 (UTC)" = yael
   )
 )
 
@@ -372,7 +372,7 @@ html_session(featured_4, id="key4")
 close_1 = list(
   title = "Closing & call for support of F4SG activities", 
   chair = "Chair: Bahman Rostami-Tabar | Cardiff University",
-  time = "16:25 - 16:40 (UTC)",
+  time = "16:45 - 17:00 (UTC)",
   date = "Sunday July 10, 2022"
   #talks = list( )
 )
