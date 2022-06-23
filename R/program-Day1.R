@@ -285,7 +285,7 @@ html_session(session_2, id="session2")
 break_1 = list(
   title = "Break", 
   # chair = "",
-  time = "14:30 - 14:50 (UTC)",
+  time = "14:25 - 14:50 (UTC)",
   date = "Sunday, July 10"
   #talks = list()
 )
