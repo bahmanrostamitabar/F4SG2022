@@ -243,8 +243,8 @@ html_session(featured_3, id="key3")
 #-------------------------------------------------------#
 
 
-david_leblang = list(
-  author = "David Leblang",
+luke_shimek = list(
+  author = "Luke Martin Shimek",
   title = "Forecasting Global Displacement: Evidence from a Hurdle Model",
   abstract = "Global displacement has increased and accelerated over the past twenty years, resulting from natural disasters, civil and international conflict, and climate change.  While some displacement ‘events’ are relatively small in number, others are large and long lasting.  We develop a model to forecast human displacement using a hurdle model; a model that allows us to distinguish between small and large events.  This model provides support for existing work that finds an important effect of armed conflict; the effect(s) of climate change are weaker.
 "
@@ -270,7 +270,7 @@ session_2 = list(
   time = "13:10 - 14:25 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
-    "13:10 (UTC)" = david_leblang, 
+    "13:10 (UTC)" = luke_shimek, 
     "13:35 (UTC)" = eduardo, 
     "14:00 (UTC)" = andre
   )
