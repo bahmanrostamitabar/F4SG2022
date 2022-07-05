@@ -359,7 +359,7 @@ featured_4 = list(
   time = "16:10 - 16:40 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
-    "16:15 (UTC)" = yael
+    "16:10 (UTC)" = yael
   )
 )
 
@@ -372,7 +372,7 @@ html_session(featured_4, id="key4")
 close_1 = list(
   title = "Closing & call for support of F4SG activities", 
   chair = "Chair: Bahman Rostami-Tabar | Cardiff University",
-  time = "16:40 - 16:55 (UTC)",
+  time = "16:45 - 16:55 (UTC)",
   date = "Sunday July 10, 2022"
   #talks = list( )
 )
