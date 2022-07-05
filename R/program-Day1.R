@@ -332,12 +332,12 @@ rebecca = list(
 session_3 = list(
   title = "Session #3: Forecasting for International migration and cross-border mobility", 
   chair = "Chair: Ingmar G. Weber | Qatar Computing Research Institute",
-  time = "14:50 - 15:00 (UTC)",
+  time = "14:55 - 16:05 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
     "14:55 (UTC)" = jana, 
-    "15:25 (UTC)" = lisa,
-    "15:50 (UTC)" = rebecca
+    "15:20 (UTC)" = lisa,
+    "15:45 (UTC)" = rebecca
   )
 )
 
@@ -356,7 +356,7 @@ yael = list(
 featured_4 = list(
   title = "Featured talk #4: Democratizing Forecasting Learning", 
   chair = "Chair: Aziz Ezzat | Rutgers University",
-  time = "16:15 - 16:45 (UTC)",
+  time = "16:10 - 16:40 (UTC)",
   date = "Sunday July 10, 2022",
   talks = list(
     "16:15 (UTC)" = yael
@@ -372,7 +372,7 @@ html_session(featured_4, id="key4")
 close_1 = list(
   title = "Closing & call for support of F4SG activities", 
   chair = "Chair: Bahman Rostami-Tabar | Cardiff University",
-  time = "16:45 - 17:00 (UTC)",
+  time = "16:40 - 16:55 (UTC)",
   date = "Sunday July 10, 2022"
   #talks = list( )
 )
